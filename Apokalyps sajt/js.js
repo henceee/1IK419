@@ -14,12 +14,12 @@ var media = {
 	//getElementsByTagName("a")[0];
 	
 	
+	var wrapper = document.getElementById("wrapper");
+
+	console.log(wrapper);	
+
 	
-	var tourdatelink = dates.getElementsByTagName("a")[0];
-	console.log(tourdatelink);
-	
-	tourdatelink.href="Gigs.html";
-	 
+
 	 medialink.onclick= function(){
 		
 		return false;

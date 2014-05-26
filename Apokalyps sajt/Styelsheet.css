@@ -15,7 +15,7 @@ html
 {
     
     margin: 0 auto;
-    width: 1336px;
+    width: 960px;
 }
 
 
@@ -24,8 +24,8 @@ html
     background-image: url("../Pics/header.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
-	width: 1336;
-    height: 700;
+    width: 960px;
+    height: 700px;
       
     
 }
