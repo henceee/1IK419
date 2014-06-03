@@ -1,4 +1,4 @@
-html 
+﻿html 
 { 
 
     background-color: black;  
@@ -15,7 +15,8 @@ html
 {
     
     margin: 0 auto;
-    width: 1336px;
+    width: 100%;
+    max-width: 1336px;
 }
 
 
@@ -24,8 +25,9 @@ html
     background-image: url("../Pics/header.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
-	width: 1336;
-    height: 700;
+	width: 100%;
+	max-width: 1336px;
+    height: 700px;
       
     
 }
@@ -41,8 +43,8 @@ html
 
 
 
-
-    width: 1336px;    
+	width: 100%;
+    max-width: 1336px;    
     height: 40px;
 	margin-left: auto;
 	margin-right:auto;
@@ -225,7 +227,8 @@ color: #AB9E69 ;
 {
     margin-top: 30px;   
     background-color: White;
-    width: 1336px;       
+	width: 100%;
+    max-width: 1336px;       
     float: left; 
     text-align: center;
 	margin-bottom: 50px;	
@@ -292,7 +295,7 @@ color: #AB9E69 ;
 
 }
 
-#guestbook input[type="text"], textarea{
+#guestbook input[type=text], textarea{
 
 border-radius: 3px;
 border: 1px solid transparent;
@@ -395,6 +398,24 @@ padding: 5px;
 	
 }
 
+#news article {
+
+margin-bottom: 50px;
+
+}
+
+#news article  p{
+
+text-align: left;
+
+}
+
+
+#news article h1 {
+
+font-size: 1.5em;
+	}
+}
 
 body,td,th {
 	font-family: Geneva, Arial, Helvetica, sans-serif;
