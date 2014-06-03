@@ -203,6 +203,8 @@ color: #AB9E69 ;
 	background-color:#324771;
 	
 	padding: 1px;
+	
+	opacity: 0.8;
 }
 
     
@@ -231,7 +233,7 @@ color: #AB9E69 ;
     max-width: 1336px;       
     float: left; 
     text-align: center;
-	margin-bottom: 50px;	
+	margin-bottom: 20px;	
 }
 
 
@@ -254,11 +256,13 @@ color: #AB9E69 ;
 	  
 }
 
+
 #insta
 {    
     float: right;	
 	margin-right: 40px;
 	margin-top: 20px;
+	
 
 
     
@@ -400,7 +404,7 @@ padding: 5px;
 
 #news article {
 
-margin-bottom: 50px;
+margin-top: 50px;
 
 }
 
